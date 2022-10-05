@@ -1,4 +1,4 @@
 #!/bin/bash
 gcc -c *.c -fpic
-gcc *.o -shared -o 100-operations.so
+gcc *.o -shared -o libdynamic.so
 rm *.o
